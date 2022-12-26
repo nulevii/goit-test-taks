@@ -1,0 +1,23 @@
+[
+  {
+  "id": 1,
+  "user": "Elon Reeve Musk",
+  "tweets": 777,
+  "followers": 100500,
+  "avatar": "/user-images/user-image-1.png"
+  },
+  {
+  "id": 2,
+  "user": "Reeve Musk Elon",
+  "tweets": 778,
+  "followers": 200500,
+  "avatar": "/user-images/user-image-2.png"
+  },
+  {
+  "id": 3,
+  "user": "Elon Musk Reeve",
+  "tweets": 779,
+  "followers": 300500,
+  "avatar": "/user-images/user-image-3.png"
+  }
+]
