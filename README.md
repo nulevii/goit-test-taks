@@ -1,6 +1,6 @@
 # GOIT TEST TASK
 
-## I used the Create React App Typescript teamplate with Tailwind CSS framework to complete this test task.
+I used the Create React App Typescript teamplate with Tailwind CSS framework to complete this test task.
 
 ## To start Application localy:
 
