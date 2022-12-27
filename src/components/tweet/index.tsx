@@ -24,7 +24,7 @@ function Tweet ({ user }: { user: IUser }): JSX.Element {
     const newIsFollow = true
     setFolowers(newFollowers)
     setIsFollow(newIsFollow)
-    localStorage.setItem(`user${user.id}`, JSON.stringify({ followers: newFollowers + 1, isFollow: newIsFollow }))
+    localStorage.setItem(`user${user.id}`, JSON.stringify({ followers: newFollowers, isFollow: newIsFollow }))
   }
   const onUnfollow = (): void => {
     const newFollowers = followers - 1
