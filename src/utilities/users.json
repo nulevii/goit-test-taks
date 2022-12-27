@@ -4,20 +4,20 @@
   "user": "Elon Reeve Musk",
   "tweets": 777,
   "followers": 100500,
-  "avatar": "/user-images/user-image-1.png"
+  "avatar": "https://github.com/nulevii/goit-test-taks/blob/main/public/user-images/user-image-1.png?raw=true"
   },
   {
   "id": 2,
   "user": "Reeve Musk Elon",
   "tweets": 778,
   "followers": 200500,
-  "avatar": "/user-images/user-image-2.png"
+  "avatar": "https://github.com/nulevii/goit-test-taks/blob/main/public/user-images/user-image-2.png?raw=true"
   },
   {
   "id": 3,
   "user": "Elon Musk Reeve",
   "tweets": 779,
   "followers": 300500,
-  "avatar": "/user-images/user-image-3.png"
+  "avatar": "https://github.com/nulevii/goit-test-taks/blob/main/public/user-images/user-image-3.png?raw=true"
   }
 ]

@@ -2,6 +2,8 @@ import React from 'react'
 import { IUser } from '../../../utilities/interfaces'
 
 function TweetData ({ user: { avatar, tweets, user }, followers }: { user: IUser, followers: number }): JSX.Element {
+  const followersWithComma = followers.toLocaleString()
+  console.log(avatar)
   return (
     <>
       <picture className='before:content-[""] after:content-[""]
@@ -11,7 +13,7 @@ function TweetData ({ user: { avatar, tweets, user }, followers }: { user: IUser
           src={avatar} alt={`User ${user}`} />
       </picture>
       <p className='mb-5 text-center font-medium text-2xl leading-7 uppercase text-[#EBD8FF]'>{tweets} tweets</p>
-      <p className='mb-8 text-center font-medium text-2xl leading-7 uppercase text-[#EBD8FF]'>{followers} followers</p>
+      <p className='mb-8 text-center font-medium text-2xl leading-7 uppercase text-[#EBD8FF]'>{followersWithComma} followers</p>
     </>
   )
 }
